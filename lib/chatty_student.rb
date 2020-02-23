@@ -1,9 +1,6 @@
 class Chatty_Student < Student 
   
-  def initialize(hello, raise_hand)
-    @hello = hello
-    @raise_hand = raise_hand 
-end 
+ 
   
   def hello 
     super 
